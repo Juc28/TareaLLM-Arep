@@ -1,4 +1,4 @@
-# Tarea de LLM.
+# Tarea de LLM 
 Mediante la integración de herramientas como LangChain, Pinecone y OpenAI, exploramos la intersección entre la inteligencia artificial y el procesamiento de lenguaje natural (NLP) en los desafíos propuestos. Para empezar, exploramos la interacción con ChatGPT utilizando Python y LangChain para enviar preguntas al modelo y obtener respuestas. Luego hablamos sobre la creación de un sistema de recuperación y generación de respuestas (RAG) utilizando una base de datos vectorial en memoria y Pinecone, destacando la eficiencia de la búsqueda de información. Finalmente, hablamos sobre cómo configurar otro RAG, esta vez utilizando Pinecone para administrar una base de datos vectorial en la nube, lo que demuestra la versatilidad de estas herramientas en la creación de sistemas de procesamiento de lenguaje natural avanzados.
 
 ## HERRAMIENTAS 
@@ -10,7 +10,10 @@ Mediante la integración de herramientas como LangChain, Pinecone y OpenAI, expl
   <p align="center">
   <IMG src=https://logowik.com/content/uploads/images/git6963.jpg height=150 width=250 >
   <p/>
-  
+- [PYCHARM](https://www.jetbrains.com/es-es/pycharm/)Es un entorno de desarrollo
+  <p align="center">
+  <IMG src=https://logowik.com/content/uploads/images/pycharm6005.logowik.com.webp height=150 width=250 >
+  <p/>
 ## INSTALACIÓN 
 + Se clona el repositorio en una máquina local con el siguiente comando:
   ~~~
@@ -35,7 +38,7 @@ Mediante la integración de herramientas como LangChain, Pinecone y OpenAI, expl
   
   ![imagen](https://github.com/Juc28/TareaLLM-Arep/assets/118181224/288e37c2-161a-4420-8486-2e8cd676eb8f)
 
-+ Se dede instalar los paquetes que esta en el archivo [requirements.txt](https://github.com/Juc28/TareaLLM-Arep/blob/master/requirements.txt) con el siguiente comando:
++ Se debe instalar los paquetes que esta en el archivo [requirements.txt](https://github.com/Juc28/TareaLLM-Arep/blob/master/requirements.txt) con el siguiente comando:
   ~~~
   pip install -r requirements.txt
   ~~~
@@ -69,8 +72,8 @@ Mediante la integración de herramientas como LangChain, Pinecone y OpenAI, expl
 + Base de datos de vectores en el agente AI
  
   ![imagen](https://github.com/Juc28/TareaLLM-Arep/assets/118181224/3d348efa-dd88-4441-82ad-546cf9e2d5d8)
+  ![imagen](https://github.com/Juc28/TareaLLM-Arep/assets/118181224/9cdb1f2e-fc95-4eef-b049-29d2a65a9be1)
 
-  
 ## ARQUITECTURA 
 1. La clase *[main.py](https://github.com/Juc28/TareaLLM-Arep/blob/master/main.py)* 
    * Utilizando una biblioteca llamada **langchain** para interactuar con modelos de aprendizaje automático de lenguaje, particularmente un modelo llamado **LLMChain**, que es un modelo de lenguaje generativo preentrenado.
