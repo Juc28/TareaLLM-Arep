@@ -42,8 +42,11 @@ Mediante la integración de herramientas como LangChain, Pinecone y OpenAI, expl
   ~~~
   pip install -r requirements.txt
   ~~~
+
+  ![imagen](https://github.com/Juc28/TareaLLM-Arep/assets/118181224/58e63155-5377-4998-9086-d2b8cd84db52)
   
-> *Para correr las clases desde consola o desde Pycharm:*
+
+> ### *Para correr las clases desde consola o desde Pycharm:*
   
 + La primera clase [main.py](https://github.com/Juc28/TareaLLM-Arep/blob/master/main.py):
   ~~~
